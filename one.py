@@ -23,7 +23,7 @@ class NewsletterScraper:
                 page.screenshot(path="archive_page.png")
                 
                 # Wait for content to load
-                page.wait_for_selector("h3", timeout=30000)
+                page.wait_for_selector("h3", timeout=30000000)
                 
                 # Scroll to load all content
                 print("Loading all articles...")
@@ -115,6 +115,24 @@ class NewsletterScraper:
                                     return el ? el.innerText.trim() : '';
                                 };
                                 
+                                // Get all images in the article
+                                const images = Array.from(document.querySelectorAll('article img, .post-content img')).map(img => ({
+                                    src: img.src,
+                                    alt: img.alt || '',
+                                    width: img.width || '',
+                                    height: img.height || '',
+                                    title: img.title || ''
+                                }));
+                                
+                                // Get main featured image
+                                const featuredImage = document.querySelector('.post-feature-image img, article header img');
+                                const headerImage = featuredImage ? {
+                                    src: featuredImage.src,
+                                    alt: featuredImage.alt || '',
+                                    width: featuredImage.width || '',
+                                    height: featuredImage.height || ''
+                                } : null;
+                                
                                 const content = getText('article') || getText('.post-content');
                                 const date = document.querySelector('time')?.getAttribute('datetime') || '';
                                 const author = getText('.author-name') || 
@@ -122,7 +140,13 @@ class NewsletterScraper:
                                              getText('[data-component="post-author-name"]') ||
                                              'Decentralised Team';
                                 
-                                return { content, date, author };
+                                return { 
+                                    content, 
+                                    date, 
+                                    author,
+                                    images,
+                                    headerImage
+                                };
                             }
                         """)
                         
@@ -136,11 +160,15 @@ class NewsletterScraper:
                             "url": article['url'],
                             "categories": ["blockchain", "crypto", "web3"],
                             "sentiment": 0.0,
-                            "entities": []
+                            "entities": [],
+                            "featured_image": article_data['headerImage'],
+                            "content_images": article_data['images']
                         }
                         
                         newsletters.append(newsletter_data)
                         print(f"Successfully scraped: {article['title']}")
+                        print(f"Found featured image: {'Yes' if article_data['headerImage'] else 'No'}")
+                        print(f"Found {len(article_data['images'])} content images")
                         time.sleep(2)
                         
                     except Exception as e:
