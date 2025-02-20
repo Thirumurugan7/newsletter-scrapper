@@ -1,0 +1,12 @@
+[
+  {
+    "name": "PHPSESSID",
+    "value": "hh0d5a9u0bh17chd30nm49vlmg",
+    "domain": "www.bankless.com",
+    "path": "/",
+    "expires": -1.0,
+    "httpOnly": true,
+    "secure": true,
+    "sameSite": "Lax"
+  }
+]

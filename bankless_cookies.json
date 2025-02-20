@@ -1,0 +1,14 @@
+[
+    {
+        "domain": "www.bankless.com",
+        "hostOnly": true,
+        "httpOnly": true,
+        "name": "PHPSESSID",
+        "path": "/",
+        "sameSite": "lax",
+        "secure": true,
+        "session": true,
+        "storeId": null,
+        "value": "hh0d5a9u0bh17chd30nm49vlmg"
+    }
+]
