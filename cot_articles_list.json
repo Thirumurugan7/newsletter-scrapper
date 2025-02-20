@@ -1,0 +1,497 @@
+[
+  {
+    "title": "Nillion: Orchestrating Privacy",
+    "url": "https://www.chainofthought.co/protocols/nillion-orchestrating-privacy",
+    "description": "In AI, privacy is no longer optional — it's existential.",
+    "date": "February 18, 2025",
+    "author": "Teng Yan,0xAce",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67b46bd332cc84d8a99e79e1_nillion_cover_COT.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Pundi AI: The \"OpenSea\" for Data",
+    "url": "https://www.chainofthought.co/protocols/pundi-ai-the-opensea-for-data",
+    "description": "How Pundi AI is fighting the centralized data monopoly",
+    "date": "February 13, 2025",
+    "author": "0xAce,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67adcf79d6c809a9ccb2886e_pundi_ai_cover.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Freysa: The AI That Owns Itself",
+    "url": "https://www.chainofthought.co/protocols/freysa-the-ai-that-owns-itself",
+    "description": "Can we build Sovereign AI agents worthy of our trust? Here's how",
+    "date": "February 5, 2025",
+    "author": "Teng Yan,ChappieOnChain",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67a34cac5425e7faeddcec70_freysa_AI_cover.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Atoma Network: Private & Verifiable AI",
+    "url": "https://www.chainofthought.co/protocols/atoma-network-private-verifiable-ai",
+    "description": "Building the most trustable compute network on the planet.",
+    "date": "January 30, 2025",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/679ae295d01027d2b698375a_atoma_network_header.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Moemate: Crossing the Chasm",
+    "url": "https://www.chainofthought.co/protocols/moemate-crossing-the-chasm",
+    "description": "This AI agent platform with millions of users in Web2 doubles down on crypto",
+    "date": "January 15, 2025",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67878594ff72530a9e833953_moemate_header_cover.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Spectral (I): Sentient Memes",
+    "url": "https://www.chainofthought.co/protocols/spectral-i-sentient-memes",
+    "description": "What if our favourite memes could talk, or trade for us?",
+    "date": "December 19, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/676383e2727a5991481e7ce3_spectral_labs_cover.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Mira: The One API for Trust",
+    "url": "https://www.chainofthought.co/protocols/mira-the-one-api-for-trust",
+    "description": "Can Collective Wisdom reduce hallucinations & bias in AI?",
+    "date": "December 13, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/675c20626ae248aaf186af9b_mira_network_cover_Large.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "ai16z, ELIZA and the Bazaar of Agents",
+    "url": "https://www.chainofthought.co/protocols/ai16z-eliza-and-the-bazaar-of-agents",
+    "description": "If ELIZA succeeds, it could fundamentally redefine how we build software.",
+    "date": "December 12, 2024",
+    "author": "Teng Yan, ChappieOnChain",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/675ac325a514eea597d35dc7_eliza_ai16z_cover_Large.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Almanak: Agents That Make Money",
+    "url": "https://www.chainofthought.co/protocols/almanak-agents-that-make-money",
+    "description": "Almanak gives everyday users the ability to profit from quant trading techniques in DeFi",
+    "date": "December 6, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6752440a8e0e3d2936b9f05b_almanak_ai_agents.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "ARC Agents: Reimagining AI Gameplay",
+    "url": "https://www.chainofthought.co/protocols/arc-agents-reimagining-ai-gameplay",
+    "description": "ARC uses AI to solve the player liquidity problem. It's now a full-fledged AI platform.",
+    "date": "November 26, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6745afbdf8c98e8df6ef67b8_ai_arenax_cover.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Virtuals Protocol: Tokenising AI Agents",
+    "url": "https://www.chainofthought.co/protocols/virtuals-protocol-tokenising-ai-agents",
+    "description": "The AI Agent launchpad race is heating up.",
+    "date": "November 20, 2024",
+    "author": "Teng Yan,ChappieOnChain",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673d3327feb7fb3517240b20_virtuals_protocol.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "DIN: Data Intelligence Network",
+    "url": "https://www.chainofthought.co/protocols/din-data-intelligence-network",
+    "description": "Data collection & labelling is big business",
+    "date": "November 7, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6740049977f7d7a69c3eb44c_data%20intelligence%20network.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "GOAT: The Gospel of Goatse",
+    "url": "https://www.chainofthought.co/protocols/goat-the-gospel-of-goatse-d098c",
+    "description": "Why Truth Terminal is an asymmetric bet on society's growing fascination with autonomous AI agents",
+    "date": "October 22, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c253e4d77f6f8b56f57a5_goat%20gospel%20of%20goatse%20Large.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Sentient: All You Need To Know",
+    "url": "https://www.chainofthought.co/protocols/sentient-all-you-need-to-know",
+    "description": "Blending the Best of Open and Closed AI models",
+    "date": "October 16, 2024",
+    "author": "Teng Yan,moyed",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c2c7a0f04e0e6990191b4_sentient%20ai%20Large.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "OLAS: Towards A Billion AI Agents",
+    "url": "https://www.chainofthought.co/protocols/olas-towards-a-billion-ai-agents",
+    "description": "Olas shows promising signs of growth — just waiting for the flywheel to ignite.",
+    "date": "October 9, 2024",
+    "author": "Teng Yan,Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c24eff776e8c59d5e2103_olas%20billion%20ai%20agents%20Large.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Nous Research: All You Need to Know",
+    "url": "https://www.chainofthought.co/protocols/nous-research-all-you-need-to-know",
+    "description": "Artificial Intelligence Made Human",
+    "date": "September 12, 2024",
+    "author": "Teng Yan, Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6740041b1e627ef7b8d570b4_nous%20research.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Dither AI: All You Need to Know",
+    "url": "https://www.chainofthought.co/protocols/dither-ai-all-you-need-to-know",
+    "description": "A foundation model for Time Series Forecasting",
+    "date": "September 3, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674000b1c0a42d41f8c30685_dither%20ai%20Medium.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Hyperbolic: All You Need to Know",
+    "url": "https://www.chainofthought.co/protocols/hyperbolic-all-you-need-to-know",
+    "description": "The Open Access AI Cloud",
+    "date": "August 26, 2024",
+    "author": "Josh, Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67400135b09e9db921270575_hyperbolic%20ai%20cloud.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Sahara AI: All You Need to Know",
+    "url": "https://www.chainofthought.co/protocols/sahara-ai-all-you-need-to-know",
+    "description": "They have an audacious vision: Your Knowledge, Your AI",
+    "date": "August 15, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67400255608bf59a6e7e0582_sahara%20ai%20Medium.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Creator Bid: All You Need to Know",
+    "url": "https://www.chainofthought.co/protocols/creator-bid-all-you-need-to-know",
+    "description": "Creator Bid is the Future of Influencer Content",
+    "date": "July 30, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674002d8b79cec46fd47ef0a_creator%20bid%20Medium.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Vana: All You Need to Know",
+    "url": "https://www.chainofthought.co/protocols/vana-all-you-need-to-know",
+    "description": "Vana is the robin hood of data, giving ownership back to the people",
+    "date": "July 23, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6740021c2729e85738b7a85d_vana%20robin%20hood%20data.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "AO: A F**King Big Computer",
+    "url": "https://www.chainofthought.co/protocols/ao-a-f-king-big-computer",
+    "description": "AO's trillion-dollar opportunity is in AI, bringing intelligence directly onto the blockchain",
+    "date": "June 25, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c24b3d78b5ca2cd20fa2f_ao%20fking%20big%20computer%20Large.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Bittensor: Breakthrough or Bust?",
+    "url": "https://www.chainofthought.co/protocols/research-bittensor-flawed",
+    "description": "A rocky path lie ahead for Bittensor despite its robust community",
+    "date": "June 5, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6724638f5641ad1e32096e0b_Screenshot_2024-06-11_at_3.25.49_PM.jpeg",
+    "section": "Protocol Research"
+  },
+  {
+    "title": "Bagel (I): Monetizing Open Source AI",
+    "url": "https://www.chainofthought.co/deep-dives/bagel-i-monetizing-open-source-ai",
+    "description": "No More Piracy. Here's how Bagel's ZKLoRA is changing the game",
+    "date": "February 11, 2025",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67aa9f8754647d3f8cd52e65_bagel_cover_image.jpeg",
+    "section": "Sector Analysis"
+  },
+  {
+    "title": "What I'm Watching in 2025",
+    "url": "https://www.chainofthought.co/deep-dives/what-i-m-watching-in-2025",
+    "description": "My predictions on the year ahead (and how I'll be hilariously wrong)",
+    "date": "January 10, 2025",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/677e5be4eadee0680a9e83a0_2025_predictions_chain_of_thought_header.jpeg",
+    "section": "Sector Analysis"
+  },
+  {
+    "title": "Our Crypto AI Thesis (Part II): Decentralised Compute is King",
+    "url": "https://www.chainofthought.co/deep-dives/our-crypto-ai-thesis-part-ii-decentralised-compute-is-king",
+    "description": "Decentralised compute is the backbone of Crypto AI — GPU marketplaces, training & inference.",
+    "date": "December 3, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674f0fe6b3f4567003acad8b_decentralised_compute.jpeg",
+    "section": "Sector Analysis"
+  },
+  {
+    "title": "The Dawn of the Crypto Agentic Era",
+    "url": "https://www.chainofthought.co/deep-dives/the-dawn-of-the-crypto-agentic-era",
+    "description": "AI agents make the path forward for crypto crystal clear. Plus some projects on my radar.",
+    "date": "October 30, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c2455da9d6db8c1decb7d_dawn%20of%20crypto%20agentic%20era%20Large.jpeg",
+    "section": "Sector Analysis"
+  },
+  {
+    "title": "Our Crypto AI Thesis (Part I): The Massive Lifetime Opportunity",
+    "url": "https://www.chainofthought.co/deep-dives/crypto-ai-thesis-part-i",
+    "description": "My full thesis is on why I'm uncomfortably bullish on crypto AI and why we are still early.",
+    "date": "September 30, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c240e25533c6e03f8d7bc_crypto%20ai%20thesis%20part%201%20Large.jpeg",
+    "section": "Sector Analysis"
+  },
+  {
+    "title": "How I'm thinking about: Decentralised AI Training",
+    "url": "https://www.chainofthought.co/deep-dives/how-i-m-thinking-about-decentralised-ai-training",
+    "description": "Foundation-scale models are no longer the domain of the top AI labs",
+    "date": "September 9, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673c26556b8312f67c2f0c5a_decentralised%20AI%20training%20Large.jpeg",
+    "section": "Sector Analysis"
+  },
+  {
+    "title": "Weekly AI Edge #34",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-34",
+    "description": "Arc Forge launches. Story Protocol (and $IP) arrives with a bang",
+    "date": "February 15, 2025",
+    "author": "Issy,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67affa9b2e67c0fa0973b8b0_weekly_ai_edge_34_cover.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #33",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-33-l8rm0",
+    "description": "Dynamic TAO is coming. Autonolas announces Olas Pearl.",
+    "date": "February 7, 2025",
+    "author": "Teng Yan,Issy",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67a5fb62275b49721bc6bc8d_weekly_ai_edge_33.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #32",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-32",
+    "description": "Crypto AI reels from DeepSeek. Nous Research announces Psyche.",
+    "date": "January 31, 2025",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/679d6429010e8f457c6279e0_weekly_ai_edge_32.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #31",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-31",
+    "description": "Creator Bid finally launches its token. Plus DeFi agents are truly here.",
+    "date": "January 24, 2025",
+    "author": "Teng Yan,0xAce",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6793786f7131058eefb0e646_weekly_ai_edge_31.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #30",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-30",
+    "description": "We're so back, it's so over. Exo Labs releases a barrage of new products.",
+    "date": "January 17, 2025",
+    "author": "Teng Yan,0xAce",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/678a3717fa5eb81240ae7aeb_weekly_ai_edge_30.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #29",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-29",
+    "description": "We're so back, it's so over. Exo Labs releases a barrage of new products.",
+    "date": "January 10, 2025",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67810a6b8abe1b0fa8526185_weekly_ai_edge_29.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #28",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-28",
+    "description": "Raise your targets, Crypto AI exceeds all and the Fat Protocol Thesis is Reborn.",
+    "date": "January 3, 2025",
+    "author": "Teng Yan,Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6777c1c792a161d6b813751f_weekly_ai_edge_28.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #27",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-27",
+    "description": "AI Agents making babies?! We track GitHub Star History to look for the next winner",
+    "date": "December 28, 2024",
+    "author": "Josh, Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/676f683a5c8da14923e593c4_weekly_ai_edge_no_27.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #26",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-26",
+    "description": "Base is solidifying its reputation as the hub for AI utility tokens. Vana launches.",
+    "date": "December 21, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/676626ba1cdc974a6c6aedcb_weekly_ai_edge_26.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #25",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-25",
+    "description": "TGE season for Crypto AI, Hyperbolic raises $20m",
+    "date": "December 15, 2024",
+    "author": "Teng Yan,Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/675ee8f182e0f14f02d8eea2_weekly_ai_edge_25.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #24",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-24",
+    "description": "Ever ask for $50,000 and actually got it? Someone did, and its chilling how AI can be jailbroken",
+    "date": "December 7, 2024",
+    "author": "Teng Yan, Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6753b1f24117247451106346_weekly_ai_edge_24.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #23",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-23",
+    "description": "0 - $100M marketcap in 24 hours on UBC. AI agents on Base are picking up fast.",
+    "date": "November 29, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/67499d2f6e7c58a42278d69e_weekly_ai_edge_23.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #22",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-22",
+    "description": "We explain ai16z's Eliza Drama. AI agents everywhere.",
+    "date": "November 22, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674060aa23483f07326dc595_weekly_ai_edge_22.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #21",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-21",
+    "description": "Binance lists an AI meme token which goes 30x. 0G Labs secures $290M in financing!",
+    "date": "November 15, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673d6d34d3627aab3c9884f5_weekly%20ai%20edge%2031.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #20",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-20",
+    "description": "Missed out on Grass? We cover other upcoming AI token launches",
+    "date": "November 8, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673d6d4c87276779245457e8_weekly%20ai%20edge%2020.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #19",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-19",
+    "description": "GRASS finally launches. AI agents are still going wild.",
+    "date": "November 1, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673d6d61bc65aa546d1a22d1_weekly%20ai%20edge%2019.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #18",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-18",
+    "description": "AI Agents are having a \"field\" day. Everyone loves Andy.",
+    "date": "October 25, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673d6d7e8be150ae99adc77a_weekly%20ai%20edge%2018.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Manufacturing Intelligence At Scale",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/manufacturing-intelligence-at-scale",
+    "description": "Key takeaways from Jensen Huang's rare candid interview this week.",
+    "date": "October 20, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/672c666fb7a4bee16c315e50_Screenshot_2024-10-19_at_9.49.07_AM.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #17: The AI Agent Edition",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-17-the-ai-agent-edition",
+    "description": "An AI Agent turns $50,000 into millions? The Truth behind GOAT",
+    "date": "October 18, 2024",
+    "author": "Teng Yan,Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/673d6d916070e61c4d12905f_weekly%20ai%20edge%2017.jpeg",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Are We Overhyping AI in Crypto?",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/are-we-overhyping-ai-in-crypto",
+    "description": "Also: Key takeaways from the Google x Bittensor talks",
+    "date": "October 13, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/672c666f2c30453b8c323e98_Screenshot_2024-10-14_at_1.25.30_PM.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #16",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-16",
+    "description": "JJ says that Bittensor is \"undervalued by 20 - 50X\"",
+    "date": "October 11, 2024",
+    "author": "Teng Yan,Josh",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674832e08c5038daec1a73d4_5.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Power Play: Data Centres & Semicon",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/power-play-data-centres-semicon",
+    "description": "Power is the primary constraint for the training of frontier models. And why China has a massive AI advantage",
+    "date": "October 6, 2024",
+    "author": "Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/672c666effc3a14119de8f03_Screenshot_2024-10-14_at_1.27.36_PM.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #15",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-15-d4287",
+    "description": "23andWe DataDAO launches to aggregate genetic data from....23andMe",
+    "date": "October 5, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674832c14a39ffcdc3954da5_3.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #14",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-14",
+    "description": "Vana raises $25M to satisfy AI's data hunger",
+    "date": "September 28, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6748328ba33984463bf29ee0_4.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #13",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-13",
+    "description": "Pin AI raises $10M in funding. Open AI releases a Strawberry!?",
+    "date": "September 13, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/6748323b29e558b86790e0ca_2.png",
+    "section": "Weekly Newsletter"
+  },
+  {
+    "title": "Weekly AI Edge #12",
+    "url": "https://www.chainofthought.co/weekly-ai-edge/weekly-ai-edge-12",
+    "description": "Grass just announced its 1st airdrop. Here's what we think.",
+    "date": "September 6, 2024",
+    "author": "Josh,Teng Yan",
+    "image": "https://cdn.prod.website-files.com/67221abcf6d4911cee57e295/674834bda20da5da14b619e8_ai%20edge%2012.png",
+    "section": "Weekly Newsletter"
+  }
+]
