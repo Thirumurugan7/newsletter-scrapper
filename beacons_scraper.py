@@ -19,7 +19,7 @@ class BeaconsScraper:
                 print("Loading blog content...")
                 
                 # Wait for blog posts to load (updated selector)
-                page.wait_for_selector(".blog-post-card", timeout=30000)
+                page.wait_for_selector(".grid-item", timeout=30000)
                 
                 # Scroll to load all content
                 print("Loading all articles...")
@@ -32,16 +32,11 @@ class BeaconsScraper:
                 blog_data = page.evaluate("""
                     () => {
                         const articles = [];
-                        document.querySelectorAll('.blog-post-card').forEach(card => {
-                            // Get link and title
-                            const titleElem = card.querySelector('.blog-post-title');
+                        document.querySelectorAll('.grid-item').forEach(card => {
+                            const titleElem = card.querySelector('.text-lg');
                             const linkElem = card.querySelector('a');
-                            
-                            // Get image
                             const imgElem = card.querySelector('img');
-                            
-                            // Get date
-                            const dateElem = card.querySelector('.blog-post-date');
+                            const dateElem = card.querySelector('.text-sm');
                             
                             if (linkElem && titleElem) {
                                 articles.push({
@@ -66,7 +61,7 @@ class BeaconsScraper:
                         
                         # Visit the blog page
                         page.goto(blog['url'])
-                        page.wait_for_selector('.blog-post-content', timeout=30000)
+                        page.wait_for_selector('.prose', timeout=30000)
                         time.sleep(3)
                         
                         # Extract blog content with updated selectors
@@ -78,7 +73,7 @@ class BeaconsScraper:
                                 };
                                 
                                 // Get all images in the blog post
-                                const images = Array.from(document.querySelectorAll('.blog-post-content img')).map(img => ({
+                                const images = Array.from(document.querySelectorAll('.prose img')).map(img => ({
                                     src: img.src,
                                     alt: img.alt || '',
                                     width: img.width || '',
@@ -86,19 +81,14 @@ class BeaconsScraper:
                                 }));
                                 
                                 // Get main content
-                                const content = getText('.blog-post-content');
+                                const content = getText('.prose');
                                 
                                 // Get author
-                                const author = getText('.blog-post-author') || 'Beacons Team';
-                                
-                                // Get categories/tags
-                                const tags = Array.from(document.querySelectorAll('.blog-post-tag'))
-                                    .map(tag => tag.innerText.trim());
+                                const author = getText('.author') || 'Beacons Team';
                                 
                                 return {
                                     content,
                                     author,
-                                    tags,
                                     images
                                 };
                             }
@@ -114,7 +104,7 @@ class BeaconsScraper:
                             "url": blog['url'],
                             "thumbnail": blog['thumbnail'],
                             "images": content_data['images'],
-                            "categories": content_data['tags'] if content_data['tags'] else ["beacons", "creator-economy"]
+                            "categories": ["beacons", "creator-economy"]
                         }
                         
                         blogs.append(blog_entry)
