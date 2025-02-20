@@ -4,8 +4,8 @@ from playwright.sync_api import sync_playwright
 
 class NewsletterScraper:
     def __init__(self):
-        self.base_url = "https://milkroad.com"
-        self.archive_url = f"{self.base_url}/daily"
+        self.base_url = "https://unchainedcrypto.substack.com"
+        self.archive_url = f"{self.base_url}/archive"
 
     def scrape_newsletters(self):
         with sync_playwright() as p:
@@ -15,29 +15,7 @@ class NewsletterScraper:
             try:
                 print(f"Accessing: {self.archive_url}")
                 page.goto(self.archive_url)
-                time.sleep(100)  # Initial wait
-                
-                # Handle popup
-                try:
-                    time.sleep(100)  # Initial wait
-
-                    # Wait for popup and close it
-                    print("Looking for popup...")
-                    # Try different selectors for close button
-                    close_button_selectors = [
-                   
-                        'CloseButton__ButtonElement-sc-79mh24-0 gwDDMW toledo-CloseButton toledo-close toledo-ClosePosition--top-right'
-                    ]
-                    
-                    for selector in close_button_selectors:
-                        if page.locator(selector).is_visible(timeout=5000):
-                            print(f"Found popup close button with selector: {selector}")
-                            page.click(selector)
-                            print("Closed popup")
-                            time.sleep(2)
-                            break
-                except Exception as e:
-                    print(f"No popup found or error handling popup: {str(e)}")
+                time.sleep(5)  # Initial wait
                 
                 print("Analyzing page structure...")
                 
@@ -64,7 +42,7 @@ class NewsletterScraper:
                         const titles = [];
                         document.querySelectorAll('h3').forEach(h3 => {
                             const link = h3.querySelector('a');
-                            if (link && link.href.includes('/p/')) {
+                            if (link && link.href.includes('/p/') && !link.href.endsWith('/comments')) {
                                 titles.push({
                                     title: h3.innerText.trim(),
                                     url: link.href
@@ -93,7 +71,9 @@ class NewsletterScraper:
                             
                             selectors.forEach(selector => {
                                 document.querySelectorAll(selector).forEach(element => {
-                                    if (element.href && element.href.includes('/p/')) {
+                                    if (element.href && 
+                                        element.href.includes('/p/') && 
+                                        !element.href.endsWith('/comments')) {
                                         articles.push({
                                             title: element.innerText.trim() || 'Untitled',
                                             url: element.href
@@ -160,7 +140,7 @@ class NewsletterScraper:
                                 const author = getText('.author-name') || 
                                              getText('.writer-name') || 
                                              getText('[data-component="post-author-name"]') ||
-                                             'Decentralised Team';
+                                             'unchain Team';
                                 
                                 return { 
                                     content, 
@@ -174,7 +154,7 @@ class NewsletterScraper:
                         
                         newsletter_data = {
                             "newsletter_id": idx,
-                            "source": "Decentralised.co",
+                            "source": "unchain",
                             "title": article['title'],
                             "publication_date": article_data['date'],
                             "content": article_data['content'],
@@ -198,7 +178,7 @@ class NewsletterScraper:
                         continue
                 
                 # Save results
-                with open("newsletters.json", "w", encoding="utf-8") as f:
+                with open("unchained_newsletters.json", "w", encoding="utf-8") as f:
                     json.dump(newsletters, f, indent=2, ensure_ascii=False)
                 
                 print(f"\nSuccessfully scraped {len(newsletters)} newsletters!")
@@ -213,36 +193,6 @@ class NewsletterScraper:
 def main():
     scraper = NewsletterScraper()
     scraper.scrape_newsletters()
-
-def close_popup():
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=False)
-        page = browser.new_page()
-        
-        try:
-            print("Accessing home page...")
-            page.goto("https://beacons.ai")
-            time.sleep(3)  # Wait for popup to appear
-            
-            # Try to find and click the close button
-            close_button = page.locator('button.CloseButton__ButtonElement-sc-79mh24-0')
-            if close_button.is_visible():
-                print("Found popup, closing it...")
-                close_button.click()
-                time.sleep(1)  # Wait for animation
-                print("Popup closed successfully")
-            else:
-                print("No popup found")
-                
-            # Optional: Take screenshot to verify
-            page.screenshot(path="after_close.png")
-            
-        except Exception as e:
-            print(f"Error: {str(e)}")
-            page.screenshot(path="error.png")
-        
-        finally:
-            browser.close()
 
 if __name__ == "__main__":
     main()
