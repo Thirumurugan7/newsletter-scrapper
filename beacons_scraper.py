@@ -4,7 +4,8 @@ from playwright.sync_api import sync_playwright
 
 class BeaconsScraper:
     def __init__(self):
-        self.base_url = "https://beacons.ai/i/beacons-blog"
+        self.base_url = "https://beacons.ai"
+        self.blog_url = f"{self.base_url}/i/blog"
 
     def scrape_blogs(self):
         with sync_playwright() as p:
@@ -12,104 +13,75 @@ class BeaconsScraper:
             page = browser.new_page()
             
             try:
-                print(f"Accessing: {self.base_url}")
-                page.goto(self.base_url)
-                time.sleep(5)  # Initial wait
+                print(f"Accessing: {self.blog_url}")
+                page.goto(self.blog_url)
+                time.sleep(5)
                 
-                print("Loading blog content...")
+                all_blogs = []
                 
-                # Wait for blog posts to load (updated selector)
-                page.wait_for_selector(".grid-item", timeout=30000)
+                # Wait for blog grid to load
+                page.wait_for_selector("div.grid.w-dyn-items", timeout=30000)
                 
-                # Scroll to load all content
-                print("Loading all articles...")
-                for _ in range(5):
-                    page.keyboard.press('End')
-                    time.sleep(3)
-                    print("Scrolling...")
-
-                # Extract blog posts with updated selectors
-                blog_data = page.evaluate("""
+                # Extract blogs
+                blogs = page.evaluate("""
                     () => {
-                        const articles = [];
-                        document.querySelectorAll('.grid-item').forEach(card => {
-                            const titleElem = card.querySelector('.text-lg');
-                            const linkElem = card.querySelector('a');
-                            const imgElem = card.querySelector('img');
-                            const dateElem = card.querySelector('.text-sm');
+                        const blogs = [];
+                        document.querySelectorAll('div.grid_item.w-dyn-item').forEach(blog => {
+                            const linkElem = blog.querySelector('a.blog_linkblock');
+                            const titleElem = blog.querySelector('.blog_title');
+                            const categoryElem = blog.querySelector('.blog_category');
+                            const dateElem = blog.querySelector('.blog_date:last-child');
+                            const imageStyle = blog.querySelector('.blog_cover_img').style.backgroundImage;
+                            const imageUrl = imageStyle.replace('url("', '').replace('")', '');
                             
                             if (linkElem && titleElem) {
-                                articles.push({
+                                blogs.push({
                                     title: titleElem.innerText.trim(),
                                     url: linkElem.href,
-                                    thumbnail: imgElem ? imgElem.src : null,
-                                    date: dateElem ? dateElem.innerText.trim() : null
+                                    category: categoryElem ? categoryElem.innerText.trim() : '',
+                                    date: dateElem ? dateElem.innerText.trim() : '',
+                                    image: imageUrl
                                 });
                             }
                         });
-                        return articles;
+                        return blogs;
                     }
                 """)
                 
-                print(f"\nFound {len(blog_data)} blog posts")
+                print(f"\nFound {len(blogs)} blogs")
                 
-                blogs = []
-                for idx, blog in enumerate(blog_data, 1):
+                # Now scrape individual blog posts
+                for idx, blog in enumerate(blogs, 1):
                     try:
-                        print(f"\nScraping blog {idx}/{len(blog_data)}")
+                        print(f"\nScraping blog {idx}/{len(blogs)}")
                         print(f"URL: {blog['url']}")
                         
                         # Visit the blog page
                         page.goto(blog['url'])
-                        page.wait_for_selector('.prose', timeout=30000)
+                        page.wait_for_selector('div.rich-text-block.w-richtext', timeout=30000)
                         time.sleep(3)
                         
-                        # Extract blog content with updated selectors
+                        # Extract blog content
                         content_data = page.evaluate("""
                             () => {
-                                const getText = selector => {
-                                    const el = document.querySelector(selector);
-                                    return el ? el.innerText.trim() : '';
-                                };
-                                
-                                // Get all images in the blog post
-                                const images = Array.from(document.querySelectorAll('.prose img')).map(img => ({
-                                    src: img.src,
-                                    alt: img.alt || '',
-                                    width: img.width || '',
-                                    height: img.height || ''
-                                }));
-                                
-                                // Get main content
-                                const content = getText('.prose');
-                                
-                                // Get author
-                                const author = getText('.author') || 'Beacons Team';
-                                
-                                return {
-                                    content,
-                                    author,
-                                    images
-                                };
+                                const content = document.querySelector('div.rich-text-block.w-richtext');
+                                return content ? content.innerText.trim() : '';
                             }
                         """)
                         
-                        blog_entry = {
+                        blog_data = {
                             "blog_id": idx,
-                            "source": "Beacons Blog",
+                            "source": "Beacons",
                             "title": blog['title'],
+                            "category": blog['category'],
                             "publication_date": blog['date'],
-                            "content": content_data['content'],
-                            "author": content_data['author'],
+                            "content": content_data,
                             "url": blog['url'],
-                            "thumbnail": blog['thumbnail'],
-                            "images": content_data['images'],
-                            "categories": ["beacons", "creator-economy"]
+                            "image": blog['image']
                         }
                         
-                        blogs.append(blog_entry)
+                        all_blogs.append(blog_data)
                         print(f"Successfully scraped: {blog['title']}")
-                        print(f"Found {len(content_data['images'])} images")
                         time.sleep(2)
                         
                     except Exception as e:
@@ -118,13 +90,12 @@ class BeaconsScraper:
                 
                 # Save results
                 with open("beacons_blogs.json", "w", encoding="utf-8") as f:
-                    json.dump(blogs, f, indent=2, ensure_ascii=False)
+                    json.dump(all_blogs, f, indent=2, ensure_ascii=False)
                 
-                print(f"\nSuccessfully scraped {len(blogs)} blog posts!")
+                print(f"\nSuccessfully scraped {len(all_blogs)} blogs!")
                 
             except Exception as e:
                 print(f"Error during scraping: {str(e)}")
-                # Take screenshot and save HTML for debugging
                 page.screenshot(path="error.png")
                 with open("error.html", "w", encoding="utf-8") as f:
                     f.write(page.content())
