@@ -1,0 +1,217 @@
+2025-02-23 21:46:40,099 - INFO - Initializing driver...
+2025-02-23 21:46:40,931 - INFO - Accessing site and bypassing Cloudflare...
+2025-02-23 21:46:47,132 - INFO - Successfully bypassed Cloudflare!
+2025-02-23 21:46:51,167 - INFO - 
+Accessing blog page...
+2025-02-23 21:46:57,189 - INFO - Scraped: The SEC Ends Investigation into OpenSea
+2025-02-23 21:46:57,189 - INFO - Scraped: Should Crypto Ditch Memecoins?
+2025-02-23 21:46:57,189 - INFO - Scraped: Arbitrum's Bold Journey Forward
+2025-02-23 21:46:57,190 - INFO - Scraped: Kaito and the Rise of InfoFi
+2025-02-23 21:46:57,190 - INFO - Scraped: SEC Likely to Dismiss Coinbase Suit, Exchange Says
+2025-02-23 21:46:57,190 - INFO - Scraped: WalletConnect Foundation Banks $10 Million Funding Round
+2025-02-23 21:46:57,190 - INFO - Scraped: Bybit Exchange Hit by Massive $1.5B Hack
+2025-02-23 21:46:57,190 - INFO - Scraped: SEC's Crypto Enforcement Unit Gets Rebranded
+2025-02-23 21:46:57,190 - INFO - Scraped: LIBRA Memecoin Backers Lost $251M: Nansen
+2025-02-23 21:46:57,190 - INFO - Scraped: SEC Dismisses Its Own Appeal Over Crypto "Dealer Rule"
+2025-02-23 21:46:57,190 - INFO - Saved 10 articles to bankless_articles.json
+2025-02-23 21:46:57,191 - INFO - Saved 10 articles to bankless_articles.json
+2025-02-23 21:46:57,191 - INFO - Scraped: DeFi Play of the Week: HyperEVM
+2025-02-23 21:46:57,191 - INFO - Scraped: 3 NFT Hotspots This Week
+2025-02-23 21:46:57,191 - INFO - Scraped: Buzzy Monad Blockchain Launches Public Testnet
+2025-02-23 21:46:57,191 - INFO - Scraped: Nigeria Demands Binance Pay $81B Penalty
+2025-02-23 21:46:57,191 - INFO - Scraped: 5 Early Opportunities on Monad
+2025-02-23 21:46:57,192 - INFO - Scraped: Binance.US Restores USD Deposits
+2025-02-23 21:46:57,192 - INFO - Scraped: A New Path Forward with Echo?
+2025-02-23 21:46:57,192 - INFO - Scraped: We're Opening Bankless Ventures Fund II
+2025-02-23 21:46:57,192 - INFO - Scraped: Hester Peirce on Crypto Industry's 5 Biggest Concerns
+2025-02-23 21:46:57,192 - INFO - Scraped: B3 101: A Quick Guide to the Gaming L3
+2025-02-23 21:46:57,192 - INFO - Saved 20 articles to bankless_articles.json
+2025-02-23 21:46:57,192 - INFO - Saved 20 articles to bankless_articles.json
+2025-02-23 21:46:57,193 - INFO - Scraped: Bittensor's Huge Upgrade
+2025-02-23 21:46:57,193 - INFO - Scraped: The Bankless Guide to Robinhood Wallet
+2025-02-23 21:46:57,193 - INFO - Scraped: Kaito Unveils KAITO Token in 'InfoFi' Play
+2025-02-23 21:46:57,193 - INFO - Scraped: Citizen DeFi Play: Onchain Zero-Day Options
+2025-02-23 21:46:57,193 - INFO - Scraped: The Promise of MegaETH’s Real-Time Revolution
+2025-02-23 21:46:57,193 - INFO - Scraped: Trump Nominates a16z Crypto's Policy Chief for CFTC Chair
+2025-02-23 21:46:57,193 - INFO - Scraped: The Open Ronin Evolution
+2025-02-23 21:46:57,193 - INFO - Scraped: Getting Started with Bunni v2
+2025-02-23 21:46:57,194 - INFO - Scraped: Fed Chair Calls for 'Fresh Look' at Crypto Debanking
+2025-02-23 21:46:57,194 - INFO - Scraped: Lido Unveils Modular V3 Upgrade with Customizable stVaults
+2025-02-23 21:46:57,194 - INFO - Saved 30 articles to bankless_articles.json
+2025-02-23 21:46:57,194 - INFO - Saved 30 articles to bankless_articles.json
+2025-02-23 21:46:57,194 - INFO - Scraped: Uniswap's Unichain Hits Mainnet
+2025-02-23 21:46:57,194 - INFO - Scraped: Crypto's Top 5 IPO Targets for 2025
+2025-02-23 21:46:57,195 - INFO - Scraped: The Best Creator Tools on Base
+2025-02-23 21:46:57,195 - INFO - Scraped: Crypto's Tariff Spiral
+2025-02-23 21:46:57,195 - INFO - Scraped: Putting Your Tokens to Work on Meteora
+2025-02-23 21:46:57,195 - INFO - Scraped: Ethereum's Pectra Upgrade Set for Testnet Trials
+2025-02-23 21:46:57,195 - INFO - Scraped: Citizen DeFi Play: Berachain Mainnet
+2025-02-23 21:46:57,195 - INFO - Scraped: Trump Faces Ethics Complaint Over Memecoin
+2025-02-23 21:46:57,195 - INFO - Scraped: Trump's Media Group Moves to Launch Bitcoin ETF
+2025-02-23 21:46:57,195 - INFO - Scraped: What is DeFAI?
+2025-02-23 21:46:57,196 - INFO - Saved 40 articles to bankless_articles.json
+2025-02-23 21:46:57,196 - INFO - Saved 40 articles to bankless_articles.json
+2025-02-23 21:46:57,196 - INFO - Found 40 articles
+2025-02-23 21:46:57,196 - INFO - Saved 40 articles to bankless_articles.json
+2025-02-23 21:46:57,196 - INFO - 
+Scraping content for 40 articles...
+2025-02-23 21:46:57,196 - INFO - 
+Scraping article 1/40: The SEC Ends Investigation into OpenSea
+2025-02-23 21:47:02,429 - INFO - Successfully scraped 946 chars
+2025-02-23 21:47:02,430 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:47:06,156 - INFO - 
+Scraping article 2/40: Should Crypto Ditch Memecoins?
+2025-02-23 21:47:31,282 - INFO - Successfully scraped 5261 chars
+2025-02-23 21:47:31,284 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:47:34,216 - INFO - 
+Scraping article 3/40: Arbitrum's Bold Journey Forward
+2025-02-23 21:48:10,600 - INFO - Successfully scraped 3893 chars
+2025-02-23 21:48:10,601 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:48:13,581 - INFO - 
+Scraping article 4/40: Kaito and the Rise of InfoFi
+2025-02-23 21:48:19,219 - INFO - Successfully scraped 5248 chars
+2025-02-23 21:48:19,220 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:48:22,245 - INFO - 
+Scraping article 5/40: SEC Likely to Dismiss Coinbase Suit, Exchange Says
+2025-02-23 21:48:27,694 - INFO - Successfully scraped 793 chars
+2025-02-23 21:48:27,695 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:48:31,231 - INFO - 
+Scraping article 6/40: WalletConnect Foundation Banks $10 Million Funding Round
+2025-02-23 21:48:35,593 - INFO - Successfully scraped 1040 chars
+2025-02-23 21:48:35,594 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:48:38,490 - INFO - 
+Scraping article 7/40: Bybit Exchange Hit by Massive $1.5B Hack
+2025-02-23 21:48:43,487 - INFO - Successfully scraped 1040 chars
+2025-02-23 21:48:43,487 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:48:47,050 - INFO - 
+Scraping article 8/40: SEC's Crypto Enforcement Unit Gets Rebranded
+2025-02-23 21:48:53,234 - INFO - Successfully scraped 932 chars
+2025-02-23 21:48:53,236 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:48:55,857 - INFO - 
+Scraping article 9/40: LIBRA Memecoin Backers Lost $251M: Nansen
+2025-02-23 21:49:01,420 - INFO - Successfully scraped 960 chars
+2025-02-23 21:49:01,421 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:49:05,100 - INFO - 
+Scraping article 10/40: SEC Dismisses Its Own Appeal Over Crypto "Dealer Rule"
+2025-02-23 21:49:10,331 - INFO - Successfully scraped 996 chars
+2025-02-23 21:49:10,332 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:49:13,046 - INFO - 
+Scraping article 11/40: DeFi Play of the Week: HyperEVM
+2025-02-23 21:49:18,439 - INFO - Successfully scraped 1345 chars
+2025-02-23 21:49:18,440 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:49:22,107 - INFO - 
+Scraping article 12/40: 3 NFT Hotspots This Week
+2025-02-23 21:50:17,523 - INFO - Successfully scraped 5584 chars
+2025-02-23 21:50:17,524 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:50:21,387 - INFO - 
+Scraping article 13/40: Buzzy Monad Blockchain Launches Public Testnet
+2025-02-23 21:50:28,065 - INFO - Successfully scraped 1401 chars
+2025-02-23 21:50:28,066 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:50:31,093 - INFO - 
+Scraping article 14/40: Nigeria Demands Binance Pay $81B Penalty
+2025-02-23 21:50:37,074 - INFO - Successfully scraped 793 chars
+2025-02-23 21:50:37,076 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:50:39,260 - INFO - 
+Scraping article 15/40: 5 Early Opportunities on Monad
+2025-02-23 21:50:44,729 - INFO - Successfully scraped 5821 chars
+2025-02-23 21:50:44,731 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:50:47,591 - INFO - 
+Scraping article 16/40: Binance.US Restores USD Deposits
+2025-02-23 21:50:54,053 - INFO - Successfully scraped 1188 chars
+2025-02-23 21:50:54,055 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:50:56,525 - INFO - 
+Scraping article 17/40: A New Path Forward with Echo?
+2025-02-23 21:51:02,334 - INFO - Successfully scraped 4783 chars
+2025-02-23 21:51:02,335 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:04,701 - INFO - 
+Scraping article 18/40: We're Opening Bankless Ventures Fund II
+2025-02-23 21:51:10,775 - INFO - Successfully scraped 6638 chars
+2025-02-23 21:51:10,776 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:14,285 - INFO - 
+Scraping article 19/40: Hester Peirce on Crypto Industry's 5 Biggest Concerns
+2025-02-23 21:51:19,357 - INFO - Successfully scraped 4265 chars
+2025-02-23 21:51:19,359 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:23,356 - INFO - 
+Scraping article 20/40: B3 101: A Quick Guide to the Gaming L3
+2025-02-23 21:51:28,238 - INFO - Successfully scraped 3533 chars
+2025-02-23 21:51:28,240 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:30,838 - INFO - 
+Scraping article 21/40: Bittensor's Huge Upgrade
+2025-02-23 21:51:37,146 - INFO - Successfully scraped 2355 chars
+2025-02-23 21:51:37,147 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:39,708 - INFO - 
+Scraping article 22/40: The Bankless Guide to Robinhood Wallet
+2025-02-23 21:51:45,258 - INFO - Successfully scraped 4556 chars
+2025-02-23 21:51:45,259 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:48,395 - INFO - 
+Scraping article 23/40: Kaito Unveils KAITO Token in 'InfoFi' Play
+2025-02-23 21:51:53,289 - INFO - Successfully scraped 1952 chars
+2025-02-23 21:51:53,291 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:51:56,749 - INFO - 
+Scraping article 24/40: Citizen DeFi Play: Onchain Zero-Day Options
+2025-02-23 21:52:03,715 - INFO - Successfully scraped 1372 chars
+2025-02-23 21:52:03,718 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:52:06,444 - INFO - 
+Scraping article 25/40: The Promise of MegaETH’s Real-Time Revolution
+2025-02-23 21:52:12,841 - INFO - Successfully scraped 10513 chars
+2025-02-23 21:52:12,843 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:52:15,195 - INFO - 
+Scraping article 26/40: Trump Nominates a16z Crypto's Policy Chief for CFTC Chair
+2025-02-23 21:52:21,243 - INFO - Successfully scraped 1303 chars
+2025-02-23 21:52:21,244 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:52:24,002 - INFO - 
+Scraping article 27/40: The Open Ronin Evolution
+2025-02-23 21:52:29,781 - INFO - Successfully scraped 4082 chars
+2025-02-23 21:52:29,782 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:52:32,911 - INFO - 
+Scraping article 28/40: Getting Started with Bunni v2
+2025-02-23 21:52:38,666 - INFO - Successfully scraped 3797 chars
+2025-02-23 21:52:38,667 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:52:41,297 - INFO - 
+Scraping article 29/40: Fed Chair Calls for 'Fresh Look' at Crypto Debanking
+2025-02-23 21:52:47,143 - INFO - Successfully scraped 1319 chars
+2025-02-23 21:52:47,145 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:52:50,490 - INFO - 
+Scraping article 30/40: Lido Unveils Modular V3 Upgrade with Customizable stVaults
+2025-02-23 21:53:14,943 - INFO - Successfully scraped 1312 chars
+2025-02-23 21:53:14,944 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:53:18,318 - INFO - 
+Scraping article 31/40: Uniswap's Unichain Hits Mainnet
+2025-02-23 21:53:43,205 - INFO - Successfully scraped 1582 chars
+2025-02-23 21:53:43,207 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:53:47,055 - INFO - 
+Scraping article 32/40: Crypto's Top 5 IPO Targets for 2025
+2025-02-23 21:53:52,546 - INFO - Successfully scraped 6559 chars
+2025-02-23 21:53:52,547 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:53:54,825 - INFO - 
+Scraping article 33/40: The Best Creator Tools on Base
+2025-02-23 21:54:19,571 - INFO - Successfully scraped 6423 chars
+2025-02-23 21:54:19,572 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:54:23,549 - INFO - 
+Scraping article 34/40: Crypto's Tariff Spiral
+2025-02-23 21:54:29,049 - INFO - Successfully scraped 4175 chars
+2025-02-23 21:54:29,050 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:54:32,860 - INFO - 
+Scraping article 35/40: Putting Your Tokens to Work on Meteora
+2025-02-23 21:54:39,127 - INFO - Successfully scraped 5788 chars
+2025-02-23 21:54:39,128 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:54:42,593 - INFO - 
+Scraping article 36/40: Ethereum's Pectra Upgrade Set for Testnet Trials
+2025-02-23 21:54:48,369 - INFO - Successfully scraped 1496 chars
+2025-02-23 21:54:48,371 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:54:51,273 - INFO - 
+Scraping article 37/40: Citizen DeFi Play: Berachain Mainnet
+2025-02-23 21:54:56,423 - INFO - Successfully scraped 1229 chars
+2025-02-23 21:54:56,424 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:54:59,210 - INFO - 
+Scraping article 38/40: Trump Faces Ethics Complaint Over Memecoin
+2025-02-23 21:55:04,457 - INFO - Successfully scraped 1272 chars
+2025-02-23 21:55:04,458 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:55:06,704 - INFO - 
+Scraping article 39/40: Trump's Media Group Moves to Launch Bitcoin ETF
+2025-02-23 21:55:12,220 - INFO - Successfully scraped 1599 chars
+2025-02-23 21:55:12,221 - INFO - Saved 40 articles to bankless_articles_full.json
+2025-02-23 21:55:14,721 - INFO - 
+Scraping article 40/40: What is DeFAI?
+2025-02-23 21:55:20,361 - INFO - Successfully scraped 4796 chars
+2025-02-23 21:55:20,362 - INFO - Saved 40 articles to bankless_articles_full.json
