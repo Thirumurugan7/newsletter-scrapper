@@ -1,0 +1,42 @@
+2025-02-23 23:12:31,878 - INFO - Initializing driver...
+2025-02-23 23:12:32,802 - INFO - Accessing site and bypassing Cloudflare...
+2025-02-23 23:12:37,439 - INFO - Successfully bypassed Cloudflare!
+2025-02-23 23:12:41,341 - INFO - 
+Accessing blog page...
+2025-02-23 23:12:52,158 - INFO - 
+Scraping page 1...
+2025-02-23 23:12:52,193 - INFO - Found 15 blogs on page 1
+2025-02-23 23:12:52,194 - INFO - 
+Scraping blog 1: Beacons 2024 State of the Creator Talent Agency Industry
+2025-02-23 23:13:01,264 - INFO - 
+Scraping blog 2: How to Use a Link in Bio Page to Transform Clicks into Powerful Connections
+2025-02-23 23:15:09,517 - INFO - 
+Scraping blog 3: Beacons 2.0: Putting the AI in Beacons AI
+2025-02-23 23:15:16,048 - INFO - 
+Scraping blog 4: Why a Welcome Email is Important for Creators (and How To Not Suck At It)
+2025-02-23 23:15:22,247 - INFO - 
+Scraping blog 5: How to Use a Media Kit to Secure Brand Deals for your Content Business
+2025-02-23 23:15:27,186 - INFO - Saved 5 blogs to beacons_blogs.json
+2025-02-23 23:15:27,186 - INFO - 
+Scraping blog 6: A Friend From Work: Kat Tung (Customer-Obsessed)
+2025-02-23 23:15:33,676 - INFO - 
+Scraping blog 7: TikTok Influencer Collaboration: How To Collaborate With Other Influencers
+2025-02-23 23:15:38,676 - INFO - 
+Scraping blog 8: How To Create a Landing Page: Tips For Attractive & Creative Landing Page Design
+2025-02-23 23:15:43,636 - INFO - 
+Scraping blog 9: eCommerce Marketing Tips For Advertising & Strategy
+2025-02-23 23:15:48,170 - INFO - 
+Scraping blog 10: How To Write the Perfect Pitch Email
+2025-02-23 23:15:52,466 - INFO - Saved 10 blogs to beacons_blogs.json
+2025-02-23 23:15:52,466 - INFO - 
+Scraping blog 11: How To Go Viral On TikTok
+2025-02-23 23:15:56,755 - INFO - 
+Scraping blog 12: How To Make Reels Go Viral: 10 Best Tips
+2025-02-23 23:16:01,771 - INFO - 
+Scraping blog 13: How To Use TikTok: Tips To Capitalize on TikTok Trends
+2025-02-23 23:16:07,800 - INFO - 
+Scraping blog 14: Repurposing Content: 11 Tips How To Repurpose Your Influencer & Creator Content
+2025-02-23 23:16:13,794 - INFO - 
+Scraping blog 15: How To Make Money On TikTok
+2025-02-23 23:16:19,672 - INFO - Saved 15 blogs to beacons_blogs.json
+2025-02-23 23:16:19,672 - ERROR - Error during scraping: 'ChromiumPage' object has no attribute 'execute_script'
